@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type ="text/css" href="style.css">
+    <title>Top Ten Albums</title>
+  </head>
+
+  <body>
+    <form id='enter-id'>
+      <input type='text' id='user_id' placeholder="Enter userName">
+      <input type='submit' value='SUBMIT'>
+    </form>
+    <div>
+      <h1 id='userName-topten' class="header"><em>userName's Top Ten Albums</em></h1>
+      <!-- Possibly add a username input-->
+    </div>
+
+    <div id='album-search-results'>
+      <!-- Search bar to for albums
+      Always present at the top of page-->
+        <p>Add an album to your TOP TEN</p>
+      <form id='album-form'>
+        <input type="text" id='album_terms' name="album" placeholder="Album">
+        <input type="submit" name='ALBUM' value='SEARCH ALBUMS' id='button-albums'>
+      </form>
+      <form id='artist-form'>
+        <input type="text" id='artist_terms' name="artist" placeholder="Artist">
+        <input type="submit" name='ARTIST' value='SEARCH ARTISTS' id='button-artists'>
+      </form>
+    </div>
+
+    <div id='album-search-display'>
+      <!-- Display results of album search
+      Toggle between visible and hidden-->
+    </div>
+
+    <div id='top-ten'>
+        <!-- NUMBER 1 -->
+      <div class='spot-cover-info' id='album-one'>
+        <div class='list-number'><h1>1</h1></div>
+        <div class='album-cover'>???</div>
+        <div class='album-info'>
+          <p class='album-para'>artist: Undefined<br>
+          album: Self-Titled<br>
+          genre: Almost Certainly Metal<br>
+          year: 2005</p>
+        </div> 
+      </div>
+
+      <div class="reason-form">
+        <form>
+          <input type="text" name="reason" placeholder="Here's why username loves this album using exactly ten words" id="reason">
+          <input type="submit" value='SUBMIT' id='user-reason-one'>
+        </form>
+      </div>
+
+      <!-- NUMBER 2 -->
+      <div class='spot-cover-info' id='album-two'>
+        <div class='list-number'><h1>2</h1></div>
+        <div class='album-cover'>???</div>
+        <div class='album-info'>
+          <p class='album-para'>artist: Undecided<br>
+          album: Their Best Album<br>
+          genre: Jazz, Maybe?<br>
+          year: 1963</p>
+        </div> 
+      </div>
+
+      <div class="reason-form">
+        <form>
+          <input type="text" name="reason" placeholder="Here's why username loves this album using exactly ten words" id="reason">
+          <input type="submit" value='SUBMIT' id='user-reason-two'>
+        </form>
+      </div>
+
+      <!-- NUMBER 3 -->
+      <div class='spot-cover-info' id='album-three'>
+        <div class='list-number'><h1>3</h1></div>
+        <div class='album-cover'>???</div>
+        <div class='album-info'>
+          <p class='album-para'>artist: My Brother's Favorite Group<br>
+          album: The Most Recent One<br>
+          genre: Hmmmm.... Hip-Hop?<br>
+          year: 2020</p>
+        </div> 
+      </div>
+
+      <div class="reason-form">
+        <form>
+          <input type="text" name="reason" placeholder="Here's why username loves this album using exactly ten words" id="reason">
+          <input type="submit" value='SUBMIT' id='user-reason-three'>
+        </form>
+      </div>
+
+      <!-- NUMBER 4 -->
+      <div class='spot-cover-info' id='album-four'>
+        <div class='list-number'><h1>4</h1></div>
+        <div class='album-cover'>???</div>
+        <div class='album-info'>
+          <p class='album-para'>artist: The Beatles<br>
+          album: That One That Everyone Else Likes, You Know, That One<br>
+          genre: Pop<br>
+          year: You Know, That Year</p>
+        </div> 
+      </div>
+
+      <div class="reason-form">
+        <form>
+          <input type="text" name="reason" placeholder="Here's why username loves this album using exactly ten words" id="reason">
+          <input type="submit" value='SUBMIT' id='user-reason-four'>
+        </form>
+      </div>
+
+      <!-- NUMBER 5 -->
+      <div class='spot-cover-info' id='album-five'>
+        <div class='list-number'><h1>5</h1></div>
+        <div class='album-cover'>???</div>
+        <div class='album-info'>
+          <p class='album-para'>artist: Blah, Blah and the Blahs<br>
+          album: 4<br>
+          genre: Blues<br>
+          year: 1978</p>
+        </div> 
+      </div>
+
+      <div class="reason-form">
+        <form>
+          <input type="text" name="reason" placeholder="Here's why username loves this album using exactly ten words" id="reason">
+          <input type="submit" value='SUBMIT' id='user-reason-five'>
+        </form>
+      </div>
+
+      <!-- NUMBER 6 -->
+      <div class='spot-cover-info' id='album-six'>
+        <div class='list-number'><h1>6</h1></div>
+        <div class='album-cover'>???</div>
+        <div class='album-info'>
+          <p class='album-para'>artist: The Blank Blanks<br>
+          album: {Insert Animal Name}<br>
+          genre: Rock<br>
+          year: 2011</p>
+        </div> 
+      </div>
+
+      <div class="reason-form">
+        <form>
+          <input type="text" name="reason" placeholder="Here's why username loves this album using exactly ten words" id="reason">
+          <input type="submit" value='SUBMIT' id='user-reason-six'>
+        </form>
+      </div>
+
+      <!-- NUMBER 7 -->
+      <div class='spot-cover-info' id='album-seven'>
+        <div class='list-number'><h1>7</h1></div>
+        <div class='album-cover'>???</div>
+        <div class='album-info'>
+          <p class='album-para'>artist: Something That Starts With X<br>
+          album: 1 + 1 + 1 + 2 = Vegan Bacon Cheeseburger<br>
+          genre: New Wave<br>
+          year: 1982</p>
+        </div> 
+      </div>
+
+      <div class="reason-form">
+        <form>
+          <input type="text" name="reason" placeholder="Here's why username loves this album using exactly ten words" id="reason">
+          <input type="submit" value='SUBMIT' id='user-reason-seven'>
+        </form>
+      </div>
+          
+      <!-- NUMBER 8 -->
+      <div class='spot-cover-info' id='album-eight'>
+        <div class='list-number'><h1>8</h1></div>
+        <div class='album-cover'>???</div>
+        <div class='album-info'>
+          <p class='album-para'>artist: My Band<br>
+          album: We Should Be Number 1<br>
+          genre: Garage Rock<br>
+          year: 2020</p>
+        </div> 
+      </div>
+
+      <div class="reason-form">
+        <form>
+          <input type="text" name="reason" placeholder="Here's why username loves this album using exactly ten words" id="reason">
+          <input type="submit" value='SUBMIT' id='user-reason-eight'>
+        </form>
+      </div>
+
+      <!-- NUMBER 9 -->
+      <div class='spot-cover-info' id='album-nine'>
+        <div class='list-number'><h1>9</h1></div>
+        <div class='album-cover'>???</div>
+        <div class='album-info'>
+          <p class='album-para'>artist: Overrated Band<br>
+          album: Everyone Else Like It, Why Can't I?<br>
+          genre: Pop<br>
+          year: 1998</p>
+        </div> 
+      </div>
+
+      <div class="reason-form">
+        <form>
+          <input type="text" name="reason" placeholder="Here's why username loves this album using exactly ten words" id="reason">
+          <input type="submit" value='SUBMIT' id='user-reason-nine'>
+        </form>
+      </div>
+
+      <!-- NUMBER 10 -->
+      <div class='spot-cover-info' id='album-ten'>
+        <div class='list-number'><h1>10</h1></div>
+        <div class='album-cover'>???</div>
+        <div class='album-info'>
+          <p class='album-para'>artist: The FreezePops<br>
+          album: My Brain Hurts<br>
+          genre: Alternative<br>
+          year: 2009</p>
+        </div> 
+      </div>
+
+      <div class="reason-form">
+        <form>
+          <input type="text" name="reason" placeholder="Here's why username loves this album using exactly ten words" id="reason">
+          <input type="submit" value='SUBMIT' id='user-reason-ten'>
+        </form>
+      </div>
+    </div>
+
+    <div>
+      <div>
+        <h3 id='average-year'>The average release date for <b>userName</b>’s Top Ten is:</h3>
+      </div>
+      <div id='list-number'><h3>YEAR</h3></div>
+    </div>
+
+    <form id='suggestion'>
+      <input type="text" name="yourName" placeholder="yourName">
+      <input type="text" name="albumLove" placeholder="Album above that you love">
+      <input type="text" name="albumSuggest" placeholder="Similar album you suggest" id="artist search">
+      <input type="submit" value='SUGGEST' id='search-artists'>
+    </form>
+
+    <div id='comment-box'>
+      <h2>Suggestions</h2>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
